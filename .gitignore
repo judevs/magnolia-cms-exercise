@@ -49,4 +49,4 @@ spa/.next/
 spa/.turbo/
 
 # Magnolia local config
-@.magnolia/
+.magnolia
