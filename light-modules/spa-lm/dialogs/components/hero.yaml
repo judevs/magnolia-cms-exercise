@@ -1,0 +1,22 @@
+label: Hero
+form:
+  properties:
+    heroImage:
+      label: Hero Image
+      $type: damLinkField
+    heroTitle:
+      label: Hero Title
+      $type: textField
+      i18n: true
+      required: true
+    timeToRead:
+      label: Time To Read
+      $type: textField
+      i18n: true
+    heroTags:
+      label: Hero Tags
+      $type: jcrMultiField
+      field:
+        $type: textField
+        label: Tag
+        i18n: true

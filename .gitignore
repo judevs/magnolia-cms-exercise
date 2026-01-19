@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+.next/
+out/
+.turbo/
+.cache/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.orig
+.idea/
+.vscode/
+*.iml
+
+# Coverage / tests
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Magnolia / SPA specific
+spa/.vercel/
+spa/.next/
+spa/.turbo/
+

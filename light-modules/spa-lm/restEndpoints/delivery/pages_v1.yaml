@@ -1,0 +1,26 @@
+$type: jcrPagesDeliveryEndpoint_v2
+workspace: website
+depth: 10
+personalized: true
+bypassWorkspaceAcls: true
+systemProperties:
+  - mgnl:lastModified
+  - mgnl:created
+  - mgnl:template
+
+nodeTypes:
+  - mgnl:page
+childNodeTypes:
+  - mgnl:area
+  - mgnl:component
+  - mgnl:contentNode
+
+references:
+  - name: assetReference
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+  - name: heroImageAssetReference
+    propertyName: heroImage
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
