@@ -48,3 +48,5 @@ spa/.vercel/
 spa/.next/
 spa/.turbo/
 
+# Magnolia local config
+@.magnolia/
